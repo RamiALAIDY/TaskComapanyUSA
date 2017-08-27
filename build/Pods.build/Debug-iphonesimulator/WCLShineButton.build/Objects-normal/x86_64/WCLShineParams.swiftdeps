@@ -66,12 +66,16 @@ depends-member:
 - !private ["V14WCLShineButton14WCLShineBundle", "imageFromBundle"]
 - ["O14WCLShineButton13WCLShineImage", "UIImage"]
 - !private ["O14WCLShineButton13WCLShineImage", "WCLShineBundle"]
+- ["O14WCLShineButton13WCLShineImage", "clock"]
 - ["O14WCLShineButton13WCLShineImage", "custom"]
 - ["O14WCLShineButton13WCLShineImage", "getImage"]
 - ["O14WCLShineButton13WCLShineImage", "heart"]
 - ["O14WCLShineButton13WCLShineImage", "like"]
+- ["O14WCLShineButton13WCLShineImage", "phone"]
+- ["O14WCLShineButton13WCLShineImage", "silent"]
 - ["O14WCLShineButton13WCLShineImage", "smile"]
 - ["O14WCLShineButton13WCLShineImage", "star"]
+- ["O14WCLShineButton13WCLShineImage", "yes"]
 - ["V14WCLShineButton14WCLShineParams", "Bool"]
 - ["V14WCLShineButton14WCLShineParams", "CGFloat"]
 - ["V14WCLShineButton14WCLShineParams", "Double"]
@@ -159,4 +163,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/WCLShineButton/WCLShineButton-umbrella.h"
 - "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/WCLShineButton.build/unextended-module.modulemap"
-interface-hash: "1f2932cfc02669c00c02e25de2e24566"
+interface-hash: "a7547ac702916410bb9b0f5ea1a22b3c"

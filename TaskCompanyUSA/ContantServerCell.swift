@@ -20,66 +20,68 @@ class ContantServerCell: UITableViewCell {
     @IBOutlet weak var img4: UIImageView!
     
     @IBOutlet weak var StatusLabel: UILabel!
-    @IBOutlet weak var checkbox: M13Checkbox!
+    @IBOutlet weak var NameServerLabel: UILabel!
+    @IBOutlet weak var StatusLAbel: UILabel!
+   
+    @IBOutlet weak var ViewStatusColor: UIView!
+    @IBOutlet weak var ViewRadios: UIView!
+   
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-        var param1 = WCLShineParams()
-        param1.bigShineColor = UIColor(rgb: (255,95,89))
-        param1.smallShineColor = UIColor(rgb: (216,152,148))
-        param1.shineCount = 15
-        param1.smallShineOffsetAngle = -5
-        let bt1 = WCLShineButton(frame: .init(x: 10, y: 300 , width: imge1.frame.width, height: imge1.frame.height - 5 ), params: param1)
-        bt1.fillColor = UIColor(rgb: (255,95,89))
-        bt1.color = UIColor(rgb: (170,170,170))
-        bt1.image = .heart
-        bt1.addTarget(self, action: #selector(action), for: .touchUpInside)
-        imge1.addSubview(bt1)
-        
-        var param2 = WCLShineParams()
-        param2.bigShineColor = UIColor(rgb: (255,95,89))
-        param2.smallShineColor = UIColor(rgb: (216,152,148))
-        param2.shineCount = 15
-        param2.smallShineOffsetAngle = -5
-        let bt2 = WCLShineButton(frame: .init(x: 120 , y: 300 , width: imge1.frame.width, height: imge1.frame.height - 5 ), params: param2)
-        bt2.fillColor = UIColor(rgb: (255,95,89))
-        bt2.color = UIColor(rgb: (170,170,170))
-        bt2.image = .like
-        bt2.addTarget(self, action: #selector(action), for: .touchUpInside)
-        img2.addSubview(bt2)
-
-        var param3 = WCLShineParams()
-        param3.bigShineColor = UIColor(rgb: (255,95,89))
-        param3.smallShineColor = UIColor(rgb: (216,152,148))
-        param3.shineCount = 15
-        param3.smallShineOffsetAngle = -5
-        let bt3 = WCLShineButton(frame: .init(x: img3.frame.minX, y: img3.frame.minY , width: imge1.frame.width, height: imge1.frame.height - 5 ), params: param3)
-        bt3.fillColor = UIColor(rgb: (255,95,89))
-        bt3.color = UIColor(rgb: (170,170,170))
-        bt3.image = .smile
-        bt3.addTarget(self, action: #selector(action), for: .touchUpInside)
-        img2.addSubview(bt3)
-        
-        var param4 = WCLShineParams()
-        param4.bigShineColor = UIColor(rgb: (255,95,89))
-        param4.smallShineColor = UIColor(rgb: (216,152,148))
-        param4.shineCount = 15
-        param4.smallShineOffsetAngle = -5
-        let bt4 = WCLShineButton(frame: .init(x: img4.frame.minX, y: img4.frame.minY , width: imge1.frame.width, height: imge1.frame.height - 5 ), params: param4)
-        bt4.fillColor = UIColor(rgb: (255,95,89))
-        bt4.color = UIColor(rgb: (170,170,170))
-        bt4.image = .star
-        bt4.addTarget(self, action: #selector(action), for: .touchUpInside)
-        img2.addSubview(bt4)
-
-        
-        
+        ViewStatusColor.layer.cornerRadius = ViewStatusColor.layer.frame.size.height / 2 
+        ViewStatusColor.clipsToBounds = true
+        ViewRadios.layer.cornerRadius = ViewRadios.layer.frame.size.height / 2
+        ViewRadios.clipsToBounds = true
         
         imgserver.layer.cornerRadius = self.imgserver.frame.size.height / 2
         StatusLabel.layer.cornerRadius = 8
         StatusLabel.clipsToBounds = true
         
-        checkbox.backgroundColor = UIColor.red
+//        var param1 = WCLShineParams()
+//        param1.bigShineColor = UIColor(rgb: (153,152,38))
+//        param1.smallShineColor = UIColor(rgb: (102,102,102))
+//        let bt1 = WCLShineButton(frame: .init(x: 0, y: 0, width: 36, height: 36), params: param1)
+//        bt1.fillColor = UIColor(rgb: (153,152,38))
+//        bt1.color = UIColor(rgb: (170,170,170))
+//        bt1.addTarget(self, action: #selector(action), for: .touchUpInside)
+//        bt1.image = .yes
+//        imge1.addSubview(bt1)
+//        
+//        var param2 = WCLShineParams()
+//        param2.bigShineColor = UIColor(rgb: (153,152,38))
+//        param2.smallShineColor = UIColor(rgb: (102,102,102))
+//        
+//        let bt2 = WCLShineButton(frame: .init(x: 0, y: 0, width: 36, height:36), params: param2)
+//        bt2.fillColor = UIColor(rgb: (153,152,38))
+//        bt2.color = UIColor(rgb: (170,170,170))
+//        bt2.addTarget(self, action: #selector(action), for: .touchUpInside)
+//        bt2.image = .phone
+//        img2.addSubview(bt2)
+//        
+//        var param3 = WCLShineParams()
+//        param3.bigShineColor = UIColor(rgb: (153,152,38))
+//        param3.smallShineColor = UIColor(rgb: (102,102,102))
+//        let bt3 = WCLShineButton(frame: .init(x: 0, y: 0, width: 36, height: 36), params: param1)
+//        bt3.fillColor = UIColor(rgb: (153,152,38))
+//        bt3.color = UIColor(rgb: (170,170,170))
+//        bt3.addTarget(self, action: #selector(action), for: .touchUpInside)
+//        bt3.image = .clock
+//        img3.addSubview(bt3)
+//        
+//        var param4 = WCLShineParams()
+//        param4.bigShineColor = UIColor(rgb: (253,52,38))
+//        param4.smallShineColor = UIColor(rgb: (132,02,202))
+//        let bt4 = WCLShineButton(frame: .init(x: 0, y: 0, width: 36, height: 36), params: param1)
+//        bt4.fillColor = UIColor(rgb: (153,152,38))
+//        bt4.color = UIColor(rgb: (170,170,170))
+//        bt4.addTarget(self, action: #selector(action), for: .touchUpInside)
+//        bt4.image = .silent
+//        img4.addSubview(bt4)
+
+
+
+        
+        //checkbox.backgroundColor = UIColor.red
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

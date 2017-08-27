@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253C94691F52D8BE000EFA31 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 253C94681F52D8BE000EFA31 /* HeaderView.xib */; };
 		25940C9C1F50474500F54E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25940C9B1F50474500F54E4F /* AppDelegate.swift */; };
 		25940CA11F50474500F54E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25940C9F1F50474500F54E4F /* Main.storyboard */; };
 		25940CA31F50474500F54E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25940CA21F50474500F54E4F /* Assets.xcassets */; };
@@ -24,11 +25,13 @@
 		25940CE61F51F7F900F54E4F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25940CE51F51F7F900F54E4F /* MapKit.framework */; };
 		25940CE81F522CE400F54E4F /* WCLShineButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25940CE71F522CE400F54E4F /* WCLShineButton.framework */; };
 		25940CEA1F523D7600F54E4F /* PageButtonALLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25940CE91F523D7600F54E4F /* PageButtonALLViewController.swift */; };
+		25C734791F531C1600189FAC /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C734781F531C1600189FAC /* StatusModel.swift */; };
 		6E825EDCA890DBA1FBD6B5B9 /* Pods_TaskCompanyUSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212E2CDFE39DF74E663F0EF /* Pods_TaskCompanyUSA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F5FE1620A559E90383A04CF /* Pods-TaskCompanyUSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskCompanyUSA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskCompanyUSA/Pods-TaskCompanyUSA.debug.xcconfig"; sourceTree = "<group>"; };
+		253C94681F52D8BE000EFA31 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		25940C981F50474500F54E4F /* TaskCompanyUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskCompanyUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25940C9B1F50474500F54E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25940CA01F50474500F54E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		25940CE51F51F7F900F54E4F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		25940CE71F522CE400F54E4F /* WCLShineButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WCLShineButton.framework; path = "build/Debug-iphonesimulator/WCLShineButton/WCLShineButton.framework"; sourceTree = "<group>"; };
 		25940CE91F523D7600F54E4F /* PageButtonALLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageButtonALLViewController.swift; sourceTree = "<group>"; };
+		25C734781F531C1600189FAC /* StatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusModel.swift; sourceTree = "<group>"; };
 		9212E2CDFE39DF74E663F0EF /* Pods_TaskCompanyUSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskCompanyUSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB05A9F0FFFAC257BF6AE805 /* Pods-TaskCompanyUSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskCompanyUSA.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskCompanyUSA/Pods-TaskCompanyUSA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,6 +216,7 @@
 			children = (
 				25940CCD1F51BBF100F54E4F /* ContantServerCell.swift */,
 				25940CCE1F51BBF100F54E4F /* ContantServerCell.xib */,
+				253C94681F52D8BE000EFA31 /* HeaderView.xib */,
 			);
 			name = "Page Server";
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 				25940CDE1F51EB0C00F54E4F /* Contact.swift */,
 				25940CE11F51F0C800F54E4F /* ContactModel.swift */,
 				25940CE31F51F26C00F54E4F /* ContactStatus.swift */,
+				25C734781F531C1600189FAC /* StatusModel.swift */,
 			);
 			name = Contact;
 			sourceTree = "<group>";
@@ -342,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25940CD01F51BBF100F54E4F /* ContantServerCell.xib in Resources */,
+				253C94691F52D8BE000EFA31 /* HeaderView.xib in Resources */,
 				25940CA61F50474500F54E4F /* LaunchScreen.storyboard in Resources */,
 				25940CA31F50474500F54E4F /* Assets.xcassets in Resources */,
 				25940CA11F50474500F54E4F /* Main.storyboard in Resources */,
@@ -428,6 +435,7 @@
 				25940CD51F51E67400F54E4F /* Configurations.swift in Sources */,
 				25940C9C1F50474500F54E4F /* AppDelegate.swift in Sources */,
 				25940CD91F51E96C00F54E4F /* OperatorsPageOne.swift in Sources */,
+				25C734791F531C1600189FAC /* StatusModel.swift in Sources */,
 				25940CD31F51E63900F54E4F /* Communicator.swift in Sources */,
 				25940CCB1F5054D900F54E4F /* ServersSearchViewController.swift in Sources */,
 			);

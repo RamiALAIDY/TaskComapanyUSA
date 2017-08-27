@@ -31,14 +31,14 @@ class ServersSearchViewController: UIViewController {
         super.viewDidLoad()
 
         
-//        OperatorPageOne.GetAllContact { (isSucess, ServerModel) in
-//            if isSucess{
-//            
-//            self.optionList = ServerModel
-//            
-//            
-//            }
-//        }
+        OperatorPageOne.GetAllContact { (isSucess, ServerModel) in
+            if isSucess{
+            
+            self.optionList = ServerModel
+            
+            
+            }
+        }
         
         
         
@@ -58,7 +58,7 @@ class ServersSearchViewController: UIViewController {
         
         
         // Logo
-        ImgLogo.layer.cornerRadius = 24
+        ImgLogo.layer.cornerRadius = 8
         ImgLogo.clipsToBounds = true
         ImgLogo.layer.borderWidth = 1
         ImgLogo.layer.borderColor = UIColor.black.cgColor
@@ -122,29 +122,29 @@ class ServersSearchViewController: UIViewController {
     
     func selectButton(_ index:Int) -> Void {
         if index == 1 {
-            btuAll.layer.cornerRadius = 5
+            btuAll.layer.cornerRadius = 8
             btuAll.setTitleColor(UIColor.white, for: .normal)
             btuAll.backgroundColor = UIColor.blue
             btuAll.layer.borderColor = UIColor.clear.cgColor
             btuAll.layer.borderWidth = 0
             
-            Activebtn.layer.cornerRadius = 5
+            Activebtn.layer.cornerRadius = 8
             Activebtn.backgroundColor = UIColor.white
             Activebtn.setTitleColor(UIColor.gray, for: .normal)
-            Activebtn.layer.borderWidth = 2
+            Activebtn.layer.borderWidth = 1
             Activebtn.layer.borderColor = UIColor.gray.cgColor
             
-            Downbtn.layer.cornerRadius = 5
+            Downbtn.layer.cornerRadius = 8
             Downbtn.backgroundColor = UIColor.white
             Downbtn.setTitleColor(UIColor.gray, for: .normal)
-            Downbtn.layer.borderWidth = 2
+            Downbtn.layer.borderWidth = 1
             Downbtn.layer.borderColor = UIColor.gray.cgColor
 
             
-            btnAllLocation.layer.cornerRadius = 5
+            btnAllLocation.layer.cornerRadius = 8
             btnAllLocation.backgroundColor = UIColor.white
             btnAllLocation.setTitleColor(UIColor.gray, for: .normal)
-            btnAllLocation.layer.borderWidth = 2
+            btnAllLocation.layer.borderWidth = 1
             btnAllLocation.layer.borderColor = UIColor.gray.cgColor
 
             GetAllView.alpha = 1
@@ -155,59 +155,59 @@ class ServersSearchViewController: UIViewController {
             
         }
         else if index == 2{
-            Activebtn.layer.cornerRadius = 5
+            Activebtn.layer.cornerRadius = 8
             Activebtn.setTitleColor(UIColor.white, for: .normal)
             Activebtn.backgroundColor = UIColor.blue
             Activebtn.layer.borderColor = UIColor.clear.cgColor
             Activebtn.layer.borderWidth = 0
             
-            btuAll.layer.cornerRadius = 5
+            btuAll.layer.cornerRadius = 8
             btuAll.backgroundColor = UIColor.white
             btuAll.setTitleColor(UIColor.gray, for: .normal)
-            btuAll.layer.borderWidth = 2
+            btuAll.layer.borderWidth = 1
             btuAll.layer.borderColor = UIColor.gray.cgColor
             
             
-            Downbtn.layer.cornerRadius = 5
+            Downbtn.layer.cornerRadius = 8
             Downbtn.backgroundColor = UIColor.white
             Downbtn.setTitleColor(UIColor.gray, for: .normal)
-            Downbtn.layer.borderWidth = 2
+            Downbtn.layer.borderWidth = 1
             Downbtn.layer.borderColor = UIColor.gray.cgColor
 
             
-            btnAllLocation.layer.cornerRadius = 5
+            btnAllLocation.layer.cornerRadius = 8
             btnAllLocation.backgroundColor = UIColor.white
             btnAllLocation.setTitleColor(UIColor.gray, for: .normal)
-            btnAllLocation.layer.borderWidth = 2
+            btnAllLocation.layer.borderWidth = 1
             btnAllLocation.layer.borderColor = UIColor.gray.cgColor
 
     }
         else if index == 3{
         
-            Downbtn.layer.cornerRadius = 5
+            Downbtn.layer.cornerRadius = 8
             Downbtn.setTitleColor(UIColor.white, for: .normal)
             Downbtn.backgroundColor = UIColor.blue
             Downbtn.layer.borderColor = UIColor.clear.cgColor
             Downbtn.layer.borderWidth = 0
             
-            btuAll.layer.cornerRadius = 5
+            btuAll.layer.cornerRadius = 8
             btuAll.backgroundColor = UIColor.white
             btuAll.setTitleColor(UIColor.gray, for: .normal)
-            btuAll.layer.borderWidth = 2
+            btuAll.layer.borderWidth = 1
             btuAll.layer.borderColor = UIColor.gray.cgColor
             
             
-            Activebtn.layer.cornerRadius = 5
+            Activebtn.layer.cornerRadius = 8
             Activebtn.backgroundColor = UIColor.white
             Activebtn.setTitleColor(UIColor.gray, for: .normal)
-            Activebtn.layer.borderWidth = 2
+            Activebtn.layer.borderWidth = 1
             Activebtn.layer.borderColor = UIColor.gray.cgColor
             
             
-            btnAllLocation.layer.cornerRadius = 5
+            btnAllLocation.layer.cornerRadius = 8
             btnAllLocation.backgroundColor = UIColor.white
             btnAllLocation.setTitleColor(UIColor.gray, for: .normal)
-            btnAllLocation.layer.borderWidth = 2
+            btnAllLocation.layer.borderWidth = 1
             btnAllLocation.layer.borderColor = UIColor.gray.cgColor
 
         
@@ -216,30 +216,30 @@ class ServersSearchViewController: UIViewController {
         
         }
         else if index == 4 {
-        btnAllLocation.layer.cornerRadius = 5
+        btnAllLocation.layer.cornerRadius = 8
         btnAllLocation.setTitleColor(UIColor.white, for: .normal)
         btnAllLocation.backgroundColor = UIColor.blue
         btnAllLocation.layer.borderColor = UIColor.clear.cgColor
         btnAllLocation.layer.borderWidth = 0
         
-        btuAll.layer.cornerRadius = 5
+        btuAll.layer.cornerRadius = 8
         btuAll.backgroundColor = UIColor.white
         btuAll.setTitleColor(UIColor.gray, for: .normal)
-        btuAll.layer.borderWidth = 2
+        btuAll.layer.borderWidth = 1
         btuAll.layer.borderColor = UIColor.gray.cgColor
         
         
-        Activebtn.layer.cornerRadius = 5
+        Activebtn.layer.cornerRadius = 8
         Activebtn.backgroundColor = UIColor.white
         Activebtn.setTitleColor(UIColor.gray, for: .normal)
-        Activebtn.layer.borderWidth = 2
+        Activebtn.layer.borderWidth = 1
         Activebtn.layer.borderColor = UIColor.gray.cgColor
         
         
-        Downbtn.layer.cornerRadius = 5
+        Downbtn.layer.cornerRadius = 8
         Downbtn.backgroundColor = UIColor.white
         Downbtn.setTitleColor(UIColor.gray, for: .normal)
-        Downbtn.layer.borderWidth = 2
+        Downbtn.layer.borderWidth = 1
         Downbtn.layer.borderColor = UIColor.gray.cgColor
         
         }

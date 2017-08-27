@@ -64,14 +64,15 @@ depends-member:
 - ["CSo7UIColor", "init"]
 - ["CSo7UIColor", "lightGray"]
 - !private ["V14WCLShineButton14WCLShineBundle", "imageFromBundle"]
-- ["O14WCLShineButton13WCLShineImage", "Clock"]
-- ["O14WCLShineButton13WCLShineImage", "Phone"]
-- ["O14WCLShineButton13WCLShineImage", "Silent"]
 - ["O14WCLShineButton13WCLShineImage", "UIImage"]
 - !private ["O14WCLShineButton13WCLShineImage", "WCLShineBundle"]
 - ["O14WCLShineButton13WCLShineImage", "custom"]
 - ["O14WCLShineButton13WCLShineImage", "getImage"]
-- ["O14WCLShineButton13WCLShineImage", "yes"]
+- ["O14WCLShineButton13WCLShineImage", "heart"]
+- ["O14WCLShineButton13WCLShineImage", "like"]
+- ["O14WCLShineButton13WCLShineImage", "phone"]
+- ["O14WCLShineButton13WCLShineImage", "smile"]
+- ["O14WCLShineButton13WCLShineImage", "star"]
 - ["V14WCLShineButton14WCLShineParams", "Bool"]
 - ["V14WCLShineButton14WCLShineParams", "CGFloat"]
 - ["V14WCLShineButton14WCLShineParams", "Double"]
@@ -159,4 +160,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/WCLShineButton/WCLShineButton-umbrella.h"
 - "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/WCLShineButton.build/unextended-module.modulemap"
-interface-hash: "69356f4c4aa00fffc7c6e37dcc18e576"
+interface-hash: "d3a9f21946e73777acd49a8acf577a36"

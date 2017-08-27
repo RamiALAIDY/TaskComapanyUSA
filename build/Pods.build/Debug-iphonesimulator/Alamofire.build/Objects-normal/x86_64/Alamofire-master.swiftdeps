@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "2223b60493cc3c2a68b35f9a22ea3864"
-build_time: [557108889, 874547000]
+build_time: [557152506, 286915000]
 inputs:
   "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/AFError.swift": [557083634, 0]
   "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/Alamofire.swift": [557083634, 0]

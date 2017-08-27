@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "21fc5718c51e6b68c64318b41e87059a"
-build_time: [557108911, 972865000]
+build_time: [557152521, 365313000]
 inputs:
   "/Users/Rami/Desktop/TaskCompanyUSA/Pods/AlamofireImage/Source/AFIError.swift": [557083634, 0]
   "/Users/Rami/Desktop/TaskCompanyUSA/Pods/AlamofireImage/Source/Image.swift": [557083634, 0]

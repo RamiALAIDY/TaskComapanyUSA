@@ -65,6 +65,10 @@ public enum WCLShineImage {
     case like
     case smile
     case star
+    case phone
+    case silent
+    case clock
+    case yes
     case custom(UIImage)
     func getImage() -> UIImage? {
         switch self {
@@ -76,6 +80,16 @@ public enum WCLShineImage {
             return WCLShineBundle.imageFromBundle("smile")
         case .star:
             return WCLShineBundle.imageFromBundle("star")
+        case .phone:
+            return WCLShineBundle.imageFromBundle("phone")
+        case .clock:
+            return WCLShineBundle.imageFromBundle("clock")
+        case .yes:
+            return WCLShineBundle.imageFromBundle("yes")
+        case .silent:
+            return WCLShineBundle.imageFromBundle("silent")
+
+
         case .custom(let image):
             return image
             

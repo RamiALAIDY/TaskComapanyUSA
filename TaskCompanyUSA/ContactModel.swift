@@ -15,8 +15,7 @@ class ContactModel : Mappable{
     var name : String?
     var creationDate : Int?
     var expiryDate : NSNull?
-    
-    
+    var status : StatusModel?
     
     
     required init?(map: Map) {

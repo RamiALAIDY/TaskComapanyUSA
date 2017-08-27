@@ -12,7 +12,6 @@ import ObjectMapper
 
 class OperatorPageOne :NSObject {
     
-    
     class func GetAllContact(_ completion:@escaping (_ isSuccess:Bool,_ StudentsModel : ServerModel? ) -> Void){
         
         Communicator.performAsyncRequest(httpMethod: .get, parameters: nil,completionClouser: { (isSucess, error, response, message) in
@@ -21,7 +20,7 @@ class OperatorPageOne :NSObject {
             
             if isSucess && response != nil{
                 
-                if  !(responseDic["object"] is NSNull){
+                if  !(responseDic["countBus"] is NSNull){
                     
                     
                     //  let currentJson = Mapper<AllStudents>.map(responseDic)            }

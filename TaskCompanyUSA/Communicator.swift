@@ -18,13 +18,13 @@ class Communicator: NSObject {
     }
     
     class func performAsyncRequest(httpMethod: CommunicatorHTTPMethod,
-                                   
+                                  
                                    parameters:Dictionary<String, Any>?,
                                    target: UIViewController? = nil,
                                    showHUD: Bool = false,
                                    completionClouser:@escaping (_ isSuccess:Bool, _ error:Error? ,_ response:Any?, _ message:String?) -> Void){
         
-        let fullURL = API.BaseURL
+        //let fullURL = API
         
         var http:HTTPMethod
         
@@ -37,11 +37,15 @@ class Communicator: NSObject {
         // Show Indecator while loading JSON
         let user = "admin@boot.com"
         let password = "admin"
-        let credentialData = "\(user):\(password)".data(using: String.Encoding.utf8)!
-        let base64Credentials = credentialData.base64EncodedString(options: [])
-        let headers = ["Authorization": "Basic \(base64Credentials)"]
-        Alamofire.request(fullURL, method: http,parameters : nil, encoding: URLEncoding.default,headers: headers).validate().responseJSON { (_ response) in
+        
+       
+        
+        let credential = URLCredential(user: user, password: password, persistence: .forSession)
+        Alamofire.request( "http://34.208.106.205:8080/api/machine?page=0&size=10/\(user)/\(password)")
+            .authenticate(usingCredential: credential)
+            .responseJSON { (_ response) in
             
+                
             if response.error != nil {
                 // Error
                 completionClouser(false, response.error! ,nil, (response.error?.localizedDescription)!)
@@ -50,7 +54,6 @@ class Communicator: NSObject {
                 completionClouser(true, nil, response.result.value, nil)
             }
         }
-        
-}
 
+}
 }

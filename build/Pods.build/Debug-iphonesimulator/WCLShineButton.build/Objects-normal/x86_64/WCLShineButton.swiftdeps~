@@ -560,7 +560,7 @@ depends-member:
 - !private ["C14WCLShineButton18WCLShineClickLayer", "image"]
 - ["C14WCLShineButton18WCLShineClickLayer", "init"]
 - !private ["C14WCLShineButton18WCLShineClickLayer", "startAnim"]
-- ["O14WCLShineButton13WCLShineImage", "yes"]
+- ["O14WCLShineButton13WCLShineImage", "heart"]
 - !private ["C14WCLShineButton13WCLShineLayer", "endAnim"]
 - !private ["C14WCLShineButton13WCLShineLayer", "fillColor"]
 - !private ["C14WCLShineButton13WCLShineLayer", "frame"]
@@ -678,4 +678,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/WCLShineButton/WCLShineButton-umbrella.h"
 - "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/WCLShineButton.build/unextended-module.modulemap"
-interface-hash: "f913e8db9de3f3e7f7f7769576a7f4bd"
+interface-hash: "64398b6ab3833956c23ec1f08c316d2d"

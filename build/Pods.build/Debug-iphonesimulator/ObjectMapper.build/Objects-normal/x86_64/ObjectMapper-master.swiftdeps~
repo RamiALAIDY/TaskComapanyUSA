@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "393cd3c1c3831fc5bdc08b126cf3b610"
-build_time: [557108851, 233239000]
+build_time: [557152270, 877280000]
 inputs:
   "/Users/Rami/Desktop/TaskCompanyUSA/Pods/ObjectMapper/Sources/CustomDateFormatTransform.swift": [557083634, 0]
   "/Users/Rami/Desktop/TaskCompanyUSA/Pods/ObjectMapper/Sources/DataTransform.swift": [557083634, 0]
