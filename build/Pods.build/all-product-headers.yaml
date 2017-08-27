@@ -1,0 +1,195 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireImage-Swift.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireImage-umbrella.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/M13Checkbox/M13Checkbox.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "M13Checkbox-Swift.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/M13Checkbox/M13Checkbox.framework/Headers/M13Checkbox-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "M13Checkbox-umbrella.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/M13Checkbox/M13Checkbox-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/M13Checkbox/M13Checkbox.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/M13Checkbox.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/Pods_TaskCompanyUSA.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-TaskCompanyUSA-umbrella.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/Pods-TaskCompanyUSA/Pods-TaskCompanyUSA-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_TaskCompanyUSA-Swift.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/Pods_TaskCompanyUSA.framework/Headers/Pods_TaskCompanyUSA-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/Pods_TaskCompanyUSA.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/Pods-TaskCompanyUSA.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/WCLShineButton/WCLShineButton.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "WCLShineButton-Swift.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/WCLShineButton/WCLShineButton.framework/Headers/WCLShineButton-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "WCLShineButton-umbrella.h",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/WCLShineButton/WCLShineButton-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Rami/Desktop/TaskCompanyUSA/build/Debug-iphonesimulator/WCLShineButton/WCLShineButton.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/WCLShineButton.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

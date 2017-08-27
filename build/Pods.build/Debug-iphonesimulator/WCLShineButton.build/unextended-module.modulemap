@@ -1,0 +1,10 @@
+framework module WCLShineButton {
+  umbrella header "WCLShineButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WCLShineButton.__Swift {
+    exclude header "WCLShineButton-Swift.h"
+}

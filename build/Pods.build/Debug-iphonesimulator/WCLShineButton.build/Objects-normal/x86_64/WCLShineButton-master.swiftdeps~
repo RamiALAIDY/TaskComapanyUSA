@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "fc2b1b5bf0bf345275e0b94cfcf56b77"
+build_time: [557106856, 758135000]
+inputs:
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/WCLShineButton/WCLShineButton/WCLShineAngleLayer.swift": [557100603, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/WCLShineButton/WCLShineButton/WCLShineBundle.swift": [557100603, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/WCLShineButton/WCLShineButton/WCLShineButton.swift": [557101815, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/WCLShineButton/WCLShineButton/WCLShineClickLayer.swift": [557101815, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/WCLShineButton/WCLShineButton/WCLShineLayer.swift": [557100603, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/WCLShineButton/WCLShineButton/WCLShineParams.swift": [557106854, 0]

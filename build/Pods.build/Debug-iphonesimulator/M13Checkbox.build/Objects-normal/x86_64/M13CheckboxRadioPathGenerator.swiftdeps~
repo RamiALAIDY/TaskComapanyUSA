@@ -1,0 +1,98 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "M13CheckboxRadioPathGenerator"
+provides-nominal:
+- "C11M13Checkbox29M13CheckboxRadioPathGenerator"
+provides-member:
+- ["C11M13Checkbox29M13CheckboxRadioPathGenerator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "CGAffineTransform"
+- "M13CheckboxPathGenerator"
+- "M13CheckboxRadioPathGenerator"
+- "UIBezierPath"
+depends-member:
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- !private ["Ps9AnyObject", "apply"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "pathForBox"]
+- !private ["Ps9AnyObject", "pathForMark"]
+- !private ["Ps9AnyObject", "size"]
+- ["Ps9AnyObject", ""]
+- !private ["VSC17CGAffineTransform", "init"]
+- !private ["Ps7CVarArg", "apply"]
+- !private ["Ps28CustomDebugStringConvertible", "apply"]
+- !private ["Ps23CustomStringConvertible", "apply"]
+- !private ["Ps9Equatable", "apply"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps8Hashable", "apply"]
+- !private ["C11M13Checkbox24M13CheckboxPathGenerator", "CGAffineTransform"]
+- ["C11M13Checkbox24M13CheckboxPathGenerator", "UIBezierPath"]
+- ["C11M13Checkbox24M13CheckboxPathGenerator", "init"]
+- !private ["C11M13Checkbox24M13CheckboxPathGenerator", "pathForBox"]
+- ["C11M13Checkbox24M13CheckboxPathGenerator", "pathForLongMark"]
+- ["C11M13Checkbox24M13CheckboxPathGenerator", "pathForLongMixedMark"]
+- ["C11M13Checkbox24M13CheckboxPathGenerator", "pathForLongUnselectedMark"]
+- ["C11M13Checkbox24M13CheckboxPathGenerator", "pathForMark"]
+- ["C11M13Checkbox24M13CheckboxPathGenerator", "pathForMixedMark"]
+- ["C11M13Checkbox24M13CheckboxPathGenerator", "pathForUnselectedMark"]
+- !private ["C11M13Checkbox24M13CheckboxPathGenerator", "size"]
+- ["C11M13Checkbox24M13CheckboxPathGenerator", ""]
+- !private ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "CGAffineTransform"]
+- ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "UIBezierPath"]
+- ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "deinit"]
+- ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "init"]
+- !private ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "pathForBox"]
+- ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "pathForLongMark"]
+- ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "pathForLongMixedMark"]
+- ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "pathForLongUnselectedMark"]
+- ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "pathForMark"]
+- ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "pathForMixedMark"]
+- ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "pathForUnselectedMark"]
+- !private ["C11M13Checkbox29M13CheckboxRadioPathGenerator", "size"]
+- !private ["PSo8NSCoding", "apply"]
+- !private ["PSo9NSCopying", "apply"]
+- !private ["CSo8NSObject", "apply"]
+- !private ["PSo16NSObjectProtocol", "apply"]
+- !private ["CSo12UIBezierPath", "apply"]
+- !private ["Ps9_Hashable", "apply"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "VSC17CGAffineTransform"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- "C11M13Checkbox24M13CheckboxPathGenerator"
+- "C11M13Checkbox29M13CheckboxRadioPathGenerator"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo12UIBezierPath"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/M13Checkbox/M13Checkbox-umbrella.h"
+- "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/M13Checkbox.build/unextended-module.modulemap"
+interface-hash: "b4e04c46efb0d878c772a32c69b3617a"

@@ -1,0 +1,495 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WCLShineClickLayer"
+provides-nominal:
+- "C14WCLShineButton18WCLShineClickLayer"
+provides-member:
+- ["C14WCLShineButton18WCLShineClickLayer", ""]
+provides-dynamic-lookup:
+- "animDuration"
+- "clicked"
+- "color"
+- "fillColor"
+- "layoutSublayers"
+- "maskLayer"
+- "startAnim"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CAKeyframeAnimation"
+- "CALayer"
+- "Double"
+- "NSCoder"
+- !private "StringLiteralType"
+- "UIColor"
+- "WCLShineClickLayer"
+- "WCLShineImage"
+- !private "fatalError"
+- !private "kCAAnimationCubic"
+depends-member:
+- !private ["Ps9AnyObject", "CAKeyframeAnimation"]
+- ["Ps9AnyObject", "CALayer"]
+- ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "animDuration"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "calculationMode"]
+- !private ["Ps9AnyObject", "cgColor"]
+- !private ["Ps9AnyObject", "cgImage"]
+- !private ["Ps9AnyObject", "clicked"]
+- !private ["Ps9AnyObject", "color"]
+- !private ["Ps9AnyObject", "contents"]
+- !private ["Ps9AnyObject", "duration"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "fillColor"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kCAAnimationCubic"]
+- ["Ps9AnyObject", "lightGray"]
+- !private ["Ps9AnyObject", "mask"]
+- !private ["Ps9AnyObject", "maskLayer"]
+- !private ["Ps9AnyObject", "values"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo8CAAction", "calculationMode"]
+- !private ["PSo8CAAction", "duration"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "values"]
+- !private ["CSo11CAAnimation", "calculationMode"]
+- !private ["CSo11CAAnimation", "duration"]
+- !private ["CSo11CAAnimation", "init"]
+- !private ["CSo11CAAnimation", "values"]
+- !private ["CSo19CAKeyframeAnimation", "calculationMode"]
+- !private ["CSo19CAKeyframeAnimation", "duration"]
+- !private ["CSo19CAKeyframeAnimation", "init"]
+- !private ["CSo19CAKeyframeAnimation", "values"]
+- ["CSo7CALayer", "Bool"]
+- !private ["CSo7CALayer", "CAKeyframeAnimation"]
+- ["CSo7CALayer", "CALayer"]
+- ["CSo7CALayer", "Double"]
+- ["CSo7CALayer", "NSCoder"]
+- ["CSo7CALayer", "UIColor"]
+- ["CSo7CALayer", "WCLShineImage"]
+- !private ["CSo7CALayer", "add"]
+- ["CSo7CALayer", "animDuration"]
+- !private ["CSo7CALayer", "backgroundColor"]
+- !private ["CSo7CALayer", "bounds"]
+- ["CSo7CALayer", "clicked"]
+- ["CSo7CALayer", "color"]
+- !private ["CSo7CALayer", "contents"]
+- !private ["CSo7CALayer", "fatalError"]
+- ["CSo7CALayer", "fillColor"]
+- !private ["CSo7CALayer", "frame"]
+- ["CSo7CALayer", "image"]
+- ["CSo7CALayer", "init"]
+- !private ["CSo7CALayer", "kCAAnimationCubic"]
+- ["CSo7CALayer", "layoutSublayers"]
+- !private ["CSo7CALayer", "mask"]
+- ["CSo7CALayer", "maskLayer"]
+- ["CSo7CALayer", "startAnim"]
+- ["CSo7CALayer", ""]
+- !private ["PSo13CAMediaTiming", "CAKeyframeAnimation"]
+- ["PSo13CAMediaTiming", "CALayer"]
+- ["PSo13CAMediaTiming", "UIColor"]
+- !private ["PSo13CAMediaTiming", "add"]
+- !private ["PSo13CAMediaTiming", "animDuration"]
+- !private ["PSo13CAMediaTiming", "backgroundColor"]
+- !private ["PSo13CAMediaTiming", "bounds"]
+- !private ["PSo13CAMediaTiming", "calculationMode"]
+- !private ["PSo13CAMediaTiming", "clicked"]
+- !private ["PSo13CAMediaTiming", "color"]
+- !private ["PSo13CAMediaTiming", "contents"]
+- !private ["PSo13CAMediaTiming", "duration"]
+- !private ["PSo13CAMediaTiming", "fatalError"]
+- !private ["PSo13CAMediaTiming", "fillColor"]
+- !private ["PSo13CAMediaTiming", "frame"]
+- !private ["PSo13CAMediaTiming", "image"]
+- ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "kCAAnimationCubic"]
+- !private ["PSo13CAMediaTiming", "mask"]
+- !private ["PSo13CAMediaTiming", "maskLayer"]
+- !private ["PSo13CAMediaTiming", "values"]
+- ["PSo13CAMediaTiming", ""]
+- !private ["CSo19CAPropertyAnimation", "calculationMode"]
+- !private ["CSo19CAPropertyAnimation", "duration"]
+- !private ["CSo19CAPropertyAnimation", "init"]
+- !private ["CSo19CAPropertyAnimation", "values"]
+- !private ["Ps7CVarArg", "CAKeyframeAnimation"]
+- ["Ps7CVarArg", "CALayer"]
+- ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "animDuration"]
+- !private ["Ps7CVarArg", "backgroundColor"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "calculationMode"]
+- !private ["Ps7CVarArg", "cgColor"]
+- !private ["Ps7CVarArg", "cgImage"]
+- !private ["Ps7CVarArg", "clicked"]
+- !private ["Ps7CVarArg", "color"]
+- !private ["Ps7CVarArg", "contents"]
+- !private ["Ps7CVarArg", "duration"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps7CVarArg", "fillColor"]
+- !private ["Ps7CVarArg", "frame"]
+- !private ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "kCAAnimationCubic"]
+- ["Ps7CVarArg", "lightGray"]
+- !private ["Ps7CVarArg", "mask"]
+- !private ["Ps7CVarArg", "maskLayer"]
+- !private ["Ps7CVarArg", "values"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CAKeyframeAnimation"]
+- ["Ps28CustomDebugStringConvertible", "CALayer"]
+- ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "animDuration"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "calculationMode"]
+- !private ["Ps28CustomDebugStringConvertible", "cgColor"]
+- !private ["Ps28CustomDebugStringConvertible", "cgImage"]
+- !private ["Ps28CustomDebugStringConvertible", "clicked"]
+- !private ["Ps28CustomDebugStringConvertible", "color"]
+- !private ["Ps28CustomDebugStringConvertible", "contents"]
+- !private ["Ps28CustomDebugStringConvertible", "duration"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "fillColor"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kCAAnimationCubic"]
+- ["Ps28CustomDebugStringConvertible", "lightGray"]
+- !private ["Ps28CustomDebugStringConvertible", "mask"]
+- !private ["Ps28CustomDebugStringConvertible", "maskLayer"]
+- !private ["Ps28CustomDebugStringConvertible", "values"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CAKeyframeAnimation"]
+- ["Ps23CustomStringConvertible", "CALayer"]
+- ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "animDuration"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "calculationMode"]
+- !private ["Ps23CustomStringConvertible", "cgColor"]
+- !private ["Ps23CustomStringConvertible", "cgImage"]
+- !private ["Ps23CustomStringConvertible", "clicked"]
+- !private ["Ps23CustomStringConvertible", "color"]
+- !private ["Ps23CustomStringConvertible", "contents"]
+- !private ["Ps23CustomStringConvertible", "duration"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "fillColor"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kCAAnimationCubic"]
+- ["Ps23CustomStringConvertible", "lightGray"]
+- !private ["Ps23CustomStringConvertible", "mask"]
+- !private ["Ps23CustomStringConvertible", "maskLayer"]
+- !private ["Ps23CustomStringConvertible", "values"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CAKeyframeAnimation"]
+- ["Ps9Equatable", "CALayer"]
+- ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "animDuration"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "calculationMode"]
+- !private ["Ps9Equatable", "cgColor"]
+- !private ["Ps9Equatable", "cgImage"]
+- !private ["Ps9Equatable", "clicked"]
+- !private ["Ps9Equatable", "color"]
+- !private ["Ps9Equatable", "contents"]
+- !private ["Ps9Equatable", "duration"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "fillColor"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kCAAnimationCubic"]
+- ["Ps9Equatable", "lightGray"]
+- !private ["Ps9Equatable", "mask"]
+- !private ["Ps9Equatable", "maskLayer"]
+- !private ["Ps9Equatable", "values"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CAKeyframeAnimation"]
+- ["Ps8Hashable", "CALayer"]
+- ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "animDuration"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "calculationMode"]
+- !private ["Ps8Hashable", "cgColor"]
+- !private ["Ps8Hashable", "cgImage"]
+- !private ["Ps8Hashable", "clicked"]
+- !private ["Ps8Hashable", "color"]
+- !private ["Ps8Hashable", "contents"]
+- !private ["Ps8Hashable", "duration"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "fillColor"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kCAAnimationCubic"]
+- ["Ps8Hashable", "lightGray"]
+- !private ["Ps8Hashable", "mask"]
+- !private ["Ps8Hashable", "maskLayer"]
+- !private ["Ps8Hashable", "values"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "CAKeyframeAnimation"]
+- ["PSo8NSCoding", "CALayer"]
+- ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "add"]
+- !private ["PSo8NSCoding", "animDuration"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "calculationMode"]
+- !private ["PSo8NSCoding", "cgColor"]
+- !private ["PSo8NSCoding", "cgImage"]
+- !private ["PSo8NSCoding", "clicked"]
+- !private ["PSo8NSCoding", "color"]
+- !private ["PSo8NSCoding", "contents"]
+- !private ["PSo8NSCoding", "duration"]
+- !private ["PSo8NSCoding", "fatalError"]
+- !private ["PSo8NSCoding", "fillColor"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kCAAnimationCubic"]
+- ["PSo8NSCoding", "lightGray"]
+- !private ["PSo8NSCoding", "mask"]
+- !private ["PSo8NSCoding", "maskLayer"]
+- !private ["PSo8NSCoding", "values"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "calculationMode"]
+- !private ["PSo9NSCopying", "cgColor"]
+- !private ["PSo9NSCopying", "duration"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "lightGray"]
+- !private ["PSo9NSCopying", "values"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CAKeyframeAnimation"]
+- ["CSo8NSObject", "CALayer"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "WCLShineImage"]
+- !private ["CSo8NSObject", "add"]
+- ["CSo8NSObject", "animDuration"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "calculationMode"]
+- !private ["CSo8NSObject", "cgColor"]
+- !private ["CSo8NSObject", "cgImage"]
+- ["CSo8NSObject", "clicked"]
+- ["CSo8NSObject", "color"]
+- !private ["CSo8NSObject", "contents"]
+- !private ["CSo8NSObject", "duration"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "fillColor"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kCAAnimationCubic"]
+- ["CSo8NSObject", "layoutSublayers"]
+- ["CSo8NSObject", "lightGray"]
+- !private ["CSo8NSObject", "mask"]
+- ["CSo8NSObject", "maskLayer"]
+- ["CSo8NSObject", "startAnim"]
+- !private ["CSo8NSObject", "values"]
+- !private ["PSo16NSObjectProtocol", "CAKeyframeAnimation"]
+- ["PSo16NSObjectProtocol", "CALayer"]
+- ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "animDuration"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "calculationMode"]
+- !private ["PSo16NSObjectProtocol", "cgColor"]
+- !private ["PSo16NSObjectProtocol", "cgImage"]
+- !private ["PSo16NSObjectProtocol", "clicked"]
+- !private ["PSo16NSObjectProtocol", "color"]
+- !private ["PSo16NSObjectProtocol", "contents"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "fillColor"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kCAAnimationCubic"]
+- ["PSo16NSObjectProtocol", "lightGray"]
+- !private ["PSo16NSObjectProtocol", "mask"]
+- !private ["PSo16NSObjectProtocol", "maskLayer"]
+- !private ["PSo16NSObjectProtocol", "values"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "cgColor"]
+- !private ["PSo14NSSecureCoding", "cgImage"]
+- ["PSo14NSSecureCoding", "init"]
+- ["PSo14NSSecureCoding", "lightGray"]
+- !private ["CSo8NSString", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "cgImage"]
+- !private ["CSo7UIColor", "cgColor"]
+- ["CSo7UIColor", "init"]
+- ["CSo7UIColor", "lightGray"]
+- !private ["CSo7UIImage", "cgImage"]
+- ["C14WCLShineButton18WCLShineClickLayer", "Bool"]
+- !private ["C14WCLShineButton18WCLShineClickLayer", "CAKeyframeAnimation"]
+- ["C14WCLShineButton18WCLShineClickLayer", "CALayer"]
+- ["C14WCLShineButton18WCLShineClickLayer", "Double"]
+- ["C14WCLShineButton18WCLShineClickLayer", "NSCoder"]
+- ["C14WCLShineButton18WCLShineClickLayer", "UIColor"]
+- ["C14WCLShineButton18WCLShineClickLayer", "WCLShineImage"]
+- ["C14WCLShineButton18WCLShineClickLayer", "animDuration"]
+- !private ["C14WCLShineButton18WCLShineClickLayer", "backgroundColor"]
+- !private ["C14WCLShineButton18WCLShineClickLayer", "bounds"]
+- ["C14WCLShineButton18WCLShineClickLayer", "clicked"]
+- ["C14WCLShineButton18WCLShineClickLayer", "color"]
+- ["C14WCLShineButton18WCLShineClickLayer", "deinit"]
+- !private ["C14WCLShineButton18WCLShineClickLayer", "fatalError"]
+- ["C14WCLShineButton18WCLShineClickLayer", "fillColor"]
+- ["C14WCLShineButton18WCLShineClickLayer", "image"]
+- ["C14WCLShineButton18WCLShineClickLayer", "init"]
+- !private ["C14WCLShineButton18WCLShineClickLayer", "kCAAnimationCubic"]
+- ["C14WCLShineButton18WCLShineClickLayer", "layoutSublayers"]
+- !private ["C14WCLShineButton18WCLShineClickLayer", "mask"]
+- ["C14WCLShineButton18WCLShineClickLayer", "maskLayer"]
+- ["C14WCLShineButton18WCLShineClickLayer", "startAnim"]
+- !private ["O14WCLShineButton13WCLShineImage", "getImage"]
+- ["O14WCLShineButton13WCLShineImage", "heart"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "cgColor"]
+- ["Ps26_ExpressibleByColorLiteral", "init"]
+- ["Ps26_ExpressibleByColorLiteral", "lightGray"]
+- !private ["Ps26_ExpressibleByImageLiteral", "cgImage"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CAKeyframeAnimation"]
+- ["Ps9_Hashable", "CALayer"]
+- ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "animDuration"]
+- !private ["Ps9_Hashable", "backgroundColor"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "calculationMode"]
+- !private ["Ps9_Hashable", "cgColor"]
+- !private ["Ps9_Hashable", "cgImage"]
+- !private ["Ps9_Hashable", "clicked"]
+- !private ["Ps9_Hashable", "color"]
+- !private ["Ps9_Hashable", "contents"]
+- !private ["Ps9_Hashable", "duration"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "fillColor"]
+- !private ["Ps9_Hashable", "frame"]
+- !private ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kCAAnimationCubic"]
+- ["Ps9_Hashable", "lightGray"]
+- !private ["Ps9_Hashable", "mask"]
+- !private ["Ps9_Hashable", "maskLayer"]
+- !private ["Ps9_Hashable", "values"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo8CAAction"
+- !private "CSo11CAAnimation"
+- !private "CSo19CAKeyframeAnimation"
+- "CSo7CALayer"
+- "PSo13CAMediaTiming"
+- !private "CSo19CAPropertyAnimation"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo7UIColor"
+- !private "CSo7UIImage"
+- "C14WCLShineButton18WCLShineClickLayer"
+- "O14WCLShineButton13WCLShineImage"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps26_ExpressibleByColorLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Target Support Files/WCLShineButton/WCLShineButton-umbrella.h"
+- "/Users/Rami/Desktop/TaskCompanyUSA/build/Pods.build/Debug-iphonesimulator/WCLShineButton.build/unextended-module.modulemap"
+interface-hash: "19cfb0793d9d57e5dd16f26d2b2daf60"

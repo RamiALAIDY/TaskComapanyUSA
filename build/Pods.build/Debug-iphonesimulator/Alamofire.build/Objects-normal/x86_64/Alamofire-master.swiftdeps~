@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "2223b60493cc3c2a68b35f9a22ea3864"
+build_time: [557108840, 289483000]
+inputs:
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/AFError.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/Alamofire.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/MultipartFormData.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/Notifications.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/ParameterEncoding.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/Request.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/Response.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/ResponseSerialization.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/Result.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/ServerTrustPolicy.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/SessionDelegate.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/SessionManager.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/TaskDelegate.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/Timeline.swift": [557083634, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/Alamofire/Source/Validation.swift": [557083634, 0]

@@ -1,0 +1,22 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "ea131f73331f6ec109ad1012567114de"
+build_time: [557108854, 716242000]
+inputs:
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/M13Checkbox+IB.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/M13Checkbox.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Paths/M13CheckboxAddRemovePathGenerator.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/M13CheckboxAnimationGenerator.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Managers/M13CheckboxBounceController.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Paths/M13CheckboxCheckPathGenerator.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/M13CheckboxController.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Paths/M13CheckboxDisclosurePathGenerator.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Managers/M13CheckboxDotController.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Managers/M13CheckboxExpandController.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Managers/M13CheckboxFadeController.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Managers/M13CheckboxFillController.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Managers/M13CheckboxFlatController.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/M13CheckboxGestureRecognizer.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Paths/M13CheckboxPathGenerator.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Paths/M13CheckboxRadioPathGenerator.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Managers/M13CheckboxSpiralController.swift": [557104944, 0]
+  "/Users/Rami/Desktop/TaskCompanyUSA/Pods/M13Checkbox/Sources/Managers/M13CheckboxStrokeController.swift": [557104944, 0]
